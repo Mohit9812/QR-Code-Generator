@@ -1,0 +1,16 @@
+.gallerydrp{
+    display: flex;
+    justify-content: space-between;
+}
+.bsIcon{
+    margin: 5px;
+}
+.titlel{
+    font-size: medium;
+}
+.logos img{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    margin: 1px;
+}

@@ -1,0 +1,21 @@
+.picker{
+    display: flex;
+    justify-content: space-evenly;
+    width: 420px;
+}
+.pickertoast{
+    display: flex;
+    border: 1px solid black;
+    height: min-content;
+    width: min-content;
+}
+.pickertoast label{
+    width: 100px;
+    padding-left: 5px;
+}
+.maiin {
+    margin-top: 50px;
+}
+.maiin div{
+    margin-bottom:15px;
+}

@@ -1,0 +1,53 @@
+/* .drpdwn{
+    width: 500px;
+    background-color: aqua;
+} */
+.contentBox{
+    display: flex;
+    justify-content: space-between;
+}
+.bsIcon{
+    margin: 3px;
+    
+}
+.urlinp{
+    width: 100%;
+    
+}
+.custommenu{
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+}
+.drpdwn{
+    /* border: 1px solid black; */
+    margin-bottom: 10px;
+}
+.extra{
+    display: flex;
+    flex-direction: row;
+}
+/* .qrspace{
+    height: 500px;
+    width: 470px;
+    border: 2px;
+} */
+.drps{
+    width: 500px;
+    height: 500px; 
+    display: flex;
+    flex-direction: column;
+}
+.qrcode{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+}
+@media only screen and (max-width : 380px){
+    .qrcode{
+        height: 180px;
+        width: 180px;
+    }
+}

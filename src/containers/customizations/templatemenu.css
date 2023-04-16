@@ -1,0 +1,15 @@
+/* .main{
+    display: flex;
+    flex-direction: column;
+} */
+.tempt{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+}
+.tempt img{
+    height: 140px;
+    width: 140px;
+    margin: 5px;
+}

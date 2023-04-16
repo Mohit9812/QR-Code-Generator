@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cardgrp{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    overflow: scroll;
+}
+.cardgrp::-webkit-scrollbar {
+    display: none;
+  }
+.card{
+    margin: 10px;
+    border: 2px;
+}
+.onexpand{
+    height: min-content;
+}
+.imgqr1{
+    height : 80px;
+    width : 80px;
+}
+.ccard{
+    display: flex;
+    justify-content: space-between;
+}
